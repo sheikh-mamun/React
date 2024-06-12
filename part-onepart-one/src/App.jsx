@@ -1,6 +1,5 @@
 
 import React from 'react';
-import { Fragment } from 'react';
 import Header from './components/Header';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
@@ -13,7 +12,7 @@ import Blog from './pages/Blog';
 
 const App = () => {
   return (
- <Fragment>
+    <div className="wrapper">
      <BrowserRouter>
      <Header/>
      <Navbar/>
@@ -25,7 +24,7 @@ const App = () => {
     </BrowserRouter>
 
      <Footer/>
-   </Fragment>
+   </div>
   );
 };
 
