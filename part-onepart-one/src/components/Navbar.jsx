@@ -14,12 +14,15 @@ const Navbar = () => {
     <li className="nav-item d-none d-sm-inline-block">
       <a href="#" className="nav-link">Contact</a>
     </li>
+<<<<<<< HEAD
     <li className="nav-item d-none d-sm-inline-block">
       <a href="#" className="nav-link">About Us</a>
     </li>
     <li className="nav-item d-none d-sm-inline-block">
       <a href="#" className="nav-link">Contact Us</a>
     </li>
+=======
+>>>>>>> 189f955a8d2eee260d23d8ff3c10c1c95ae0a405
   </ul>
   {/* Right navbar links */}
   <ul className="navbar-nav ml-auto">
@@ -73,7 +76,11 @@ const Navbar = () => {
             <img src="asstes/dist/img/user8-128x128.jpg" alt="User Avatar" className="img-size-50 img-circle mr-3" />
             <div className="media-body">
               <h3 className="dropdown-item-title">
+<<<<<<< HEAD
                 sheikh mamun
+=======
+                John Pierce
+>>>>>>> 189f955a8d2eee260d23d8ff3c10c1c95ae0a405
                 <span className="float-right text-sm text-muted"><i className="fas fa-star" /></span>
               </h3>
               <p className="text-sm">I got your message bro</p>
